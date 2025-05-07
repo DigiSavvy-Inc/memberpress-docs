@@ -1,0 +1,184 @@
+# Show Content Only To Unauthorized Users With Elementor
+
+## Additional menu
+
+[](https://memberpress.com/)MemberPress
+
+The All-In-One WordPress Membership Plugin
+
+ 
+
+![worker bees](https://memberpress.com/wp-content/themes/memberpress-theme/images/memberpress-logo-color.svg)
+
+				Get MemberPress today! Start getting paid for the content you create!
+
+[Get MemberPress Now](https://memberpress.com/plans/pricing/)
+
+Search For
+
+Search
+
+# Show Content Only To Unauthorized Users With Elementor
+
+By default, MemberPress comes with the Protected Content Block for Gutenberg (Block) editor, making it easy to hide any content from your members with active subscriptions. This way, you can easily show a part of your content only to unauthorized users. On the other hand, this option is not available out of the box with the MemberPress Elementor integration add-on.
+
+This document will provide steps to show Elementor content only to users who are not subscribed to a specific membership. We will show you how to do this with the Elementor Pro and also how you can do it using other free plugins.
+
+## Create Unauthorized Content With Elementor Pro
+
+The content you want to show to your unauthorized users needs to be created as a stand-alone template. You can do this with Elementor Pro if you have it activated on your site:
+
+![Elementor Pro - Create a Section template](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTUxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODQ4NDg0Ii8+PGNpcmNsZSByPSIxIiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii41IiB0cmFuc2Zvcm09Im1hdHJpeCgtOTMuMzkwMTMgMS4zMzU1MyAtMS4yMDUzNyAtODQuMjg4MzggMTQ3LjMgODAuNikiLz48Y2lyY2xlIHI9IjEiIGZpbGwtb3BhY2l0eT0iLjUiIHRyYW5zZm9ybT0ibWF0cml4KC0zNC4wNTUyNyAtMi4yMTI3NSAxNC43ODM1IC0yMjcuNTI1NDcgLjYgOTAuMykiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiMwZDBkMGQiIGZpbGwtb3BhY2l0eT0iLjUiIHRyYW5zZm9ybT0icm90YXRlKDgzLjggNzcuMSAyMzIpc2NhbGUoMjEzLjA2NTE3IDMyLjU2NjIpIi8+PGNpcmNsZSByPSIxIiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii41IiB0cmFuc2Zvcm09Im1hdHJpeCgtODEuMzQzIC0uMTQxOTcgLjA3MTU3IC00MS4wMDcwNiAxNDUuMyA3NS4zKSIvPjwvc3ZnPg==)
+
+The template you just created will have a unique shortcode. This shortcode will allow you to embed this content in any place on your site.
+
+## Create Unauthorized Elementor Content With Free Plugins
+
+If you don’t have Elementor Pro on your site, you could create the template with the unauthorized content using some of the free plugins available. In this document, we’ll use the Elementor Header & Footer Builder plugin to create templates with a shortcode for free.
+
+To start, please install and activate the Elementor Header & Footer Builder plugin on your site.  You can do this by navigating to the Dashboard > Plugins > Add New, searching for the plugin name, and clicking on the Install and then the Activate button.
+
+Once the plugin is activated, you can create your template:
+
+![Elementor Header & Footer Builder 
+- Create a Custom Block](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTUxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODQ4NDg0Ii8+PGNpcmNsZSByPSIxIiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii41IiB0cmFuc2Zvcm09Im1hdHJpeCgtMTQxLjE3MTk1IC05LjgxOTc3IDE2LjIyODY3IC0yMzMuMzA4MjIgMTc1LjggODguMykiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjUiIHRyYW5zZm9ybT0ibWF0cml4KC0yNC4xMzU2NSAxNzAuMDc2MjEgLTEzOC4xNzMzMyAtMTkuNjA4MjkgMTg4LjQgOTYuNikiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjUiIHRyYW5zZm9ybT0ibWF0cml4KDIuNjE4MTEgLTYwLjg1MDE4IDE0Mi40NTg4NCA2LjEyOTM2IDE5MS4zIDExMi45KSIvPjxjaXJjbGUgcj0iMSIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJtYXRyaXgoMTU4LjU1MTI2IDIzLjk3ODYyIC0xMC4zOTEyNSA2OC43MDg5NyAyMjQuOCAxMjcpIi8+PC9zdmc+)![Elementor Header & Footer Builder 
+- Create a Custom Block](https://memberpress.com/wp-content/uploads/2024/02/file-bqkCMZivBq-1.png)
+
+You can find your template and its shortcode at Dashboard > Appearance > Elementor Header & Footer Builder > All Templates tab.
+
+## Adding The Template to a Page or Post
+
+To show the content of the template you created only to unauthorized users, firstly you need to create a MemberPress rule.
+
+![Create a MemberPress Partial Rule](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTUyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODQ4NDg0Ii8+PGcgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxjaXJjbGUgcj0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoMTI4Ljg3NDA0IDI2LjIxMDU0IC0yOC43MzkzOSAxNDEuMzA4MDggMTUxLjcgNzAuNSkiLz48Y2lyY2xlIGN4PSIxODciIGN5PSI4MiIgcj0iMTUxIi8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtMTcwLjcgODAuOCA0Mi42KXNjYWxlKDExNS4zOTIwNCA2My4yMTQ0NikiLz48Y2lyY2xlIHI9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDExMC4xNjg4NSAyNi4zOTA1NyAtMTQuNTMxNiA2MC42NjI5NCAxNjEuMSA5OC43KSIvPjwvZz48L3N2Zz4=)![Create a MemberPress Partial Rule](https://memberpress.com/wp-content/uploads/2024/02/file-8KfLHGDxWu-1.png)
+
+The rule should be used to protect the Elementor section on your page or post that should be visible to the authorized members. This will prevent unauthorized users from seeing the protected section with member content. Thus, before proceeding, ensure the MemberPress Elementor integration add-on is installed and activated.
+
+### Show Content To Unauthorized Users
+
+Instead of the protected section, the unauthorized users will be presented with the set unauthorized message. Thus, you need to add your unauthorized template shortcode as a custom unauthorized message.
+
+To achieve the mentioned setup, please follow these steps:
+
+![Elementor Pro - the Section template shortcode](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTUxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODQ4NDg0Ii8+PGcgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxjaXJjbGUgcj0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoLTg0LjYgMTIzLjIgLTU0LjMpc2NhbGUoMTg1LjYyNTAzIDEzOS40ODc3NikiLz48ZWxsaXBzZSBjeD0iMTgyIiBjeT0iODEiIHJ4PSIxNDQiIHJ5PSIxMTYiLz48ZWxsaXBzZSBjeD0iMTY2IiBjeT0iOTgiIHJ4PSIxMjEiIHJ5PSI1MiIvPjxjaXJjbGUgcj0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoOC4zIC01OTcuNyAxMjA3Ljcpc2NhbGUoMTE5Ljc1MzIzIDQzLjk1NDMxKSIvPjwvZz48L3N2Zz4=)![Elementor Pro - the Section template shortcode](https://memberpress.com/wp-content/uploads/2024/02/file-ElyZYLnexo-1.png)
+
+![Apply MemberPress Rule to the Elmentor Section](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTUyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODQ4NDg0Ii8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxjaXJjbGUgcj0iMSIgZmlsbD0iI2ZmZiIgdHJhbnNmb3JtPSJyb3RhdGUoNjAuNSA5IDE2OS41KXNjYWxlKDExOS43ODg3OCAxMzYuNDE4NjgpIi8+PGNpcmNsZSBjeD0iMTcyIiBjeT0iODAiIHI9IjEyOCIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgcj0iMSIgZmlsbD0iI2ZmZiIgdHJhbnNmb3JtPSJtYXRyaXgoOS4wNzE2MyAtMTM2LjI5NjQgMTAzLjExMzE5IDYuODYzMDIgMTY5IDcxLjcpIi8+PGNpcmNsZSByPSIxIiBmaWxsPSIjMjMyMzIzIiB0cmFuc2Zvcm09InJvdGF0ZSgxMDMuMyAtMiA5LjIpc2NhbGUoMzEuMjA5NiAyMi40MjA4NCkiLz48L2c+PC9zdmc+)![Apply MemberPress Rule to the Elmentor Section](https://memberpress.com/wp-content/uploads/2024/02/file-xdtIMECRKx-1.png)
+
+Note: If the MemberPress Elementor integration add-on is not activated on your site, the MemberPress tab won't be visible.
+
+![Add the Elementor template shortcode as Display Message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTUyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODQ4NDg0Ii8+PGNpcmNsZSByPSIxIiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii41IiB0cmFuc2Zvcm09Im1hdHJpeCgxMzcuMDc3NDEgLTIuNjMyMDIgMy4zOTM2NiAxNzYuNzQ0MDggMTc4IDc3KSIvPjxjaXJjbGUgcj0iMSIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJyb3RhdGUoMTc1LjggOTQuNSA1Ny4zKXNjYWxlKDEyNC45NTgyOCAyNjEuMTcyNjQpIi8+PGNpcmNsZSByPSIxIiBmaWxsPSIjMTcxNzE3IiBmaWxsLW9wYWNpdHk9Ii41IiB0cmFuc2Zvcm09Im1hdHJpeCgzNC40NDUwNyAuMDA4MSAtLjA1NDIgMjMwLjc1OTM5IC42IDg1LjkpIi8+PGNpcmNsZSByPSIxIiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii41IiB0cmFuc2Zvcm09Im1hdHJpeCgtNy43NzI3NSAtMjQyLjYwNTUzIDEzNS40NDA1NyAtNC4zMzkzMyAyMjIuNSA4NS44KSIvPjwvc3ZnPg==)![Add the Elementor template shortcode as Display Message](https://memberpress.com/wp-content/uploads/2024/02/file-RO7GQONsB9-1.png)
+
+Now, any member subscribed to one of the memberships added to the rule (that protects the section), will be able to see the content of the Elementor section for members on this page or post (if they are logged in).
+
+![Protected content shown to authorised users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTAxIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PGcgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxjaXJjbGUgY3g9IjEzMiIgY3k9IjUwIiByPSIxNTYiLz48Y2lyY2xlIGN4PSI5OCIgY3k9IjMiIHI9IjE4NiIvPjxjaXJjbGUgY3g9IjE1NiIgY3k9IjQyIiByPSIxNjQiLz48Y2lyY2xlIGN4PSIxMjkiIGN5PSIxOCIgcj0iMTUzIi8+PC9nPjwvc3ZnPg==)![Protected content shown to authorised users](https://memberpress.com/wp-content/uploads/2024/02/file-PKzIjv3b1u-1.png)
+
+On the other hand, if the unauthorized user visits the same page or post, the section for members will be hidden, and the unauthorized user template will be shown instead.
+
+![Unauthorized template shown to unauthorized users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTM1Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODQ4NDg0Ii8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxjaXJjbGUgY3g9IjE2NSIgY3k9IjQyIiByPSIxOTMiIGZpbGw9IiNmZmYiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0ibWF0cml4KDI1Mi4yMTIwMyA2LjcyNjcyIC0zLjQ5NjYyIDEzMS4xMDI0NyAyMTcuOCA2NS45KSIvPjxlbGxpcHNlIGN4PSIxMjIiIGN5PSI2NCIgZmlsbD0iIzgxODE4MSIgcng9IjU0IiByeT0iMzMiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0icm90YXRlKC0xMyAzMDQuMiAtOTM1LjQpc2NhbGUoNDcuNjQzMDYgMjA4LjY2MTM5KSIvPjwvZz48L3N2Zz4=)![Unauthorized template shown to unauthorized users](https://memberpress.com/wp-content/uploads/2024/02/file-cRehSQRfv6-1.png)
+
+This means that the content of the template you created for unauthorized users, is shown only to unauthorized users.
+
+Was this article helpful?
+
+[Yes](https://memberpress.com)
+[No](https://memberpress.com)
+
+### Related Articles
+
+### Need Support?
+
+Can't find the answer you're looking for?[Contact Support](https://memberpress.com)### Contents
+
+ 
+
+### Helpful Articles
+
+ 
+
+ 
+
+![computer girl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDkiIGhlaWdodD0iMzY0IiB2aWV3Qm94PSIwIDAgNDA5IDM2NCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=)![computer girl](https://memberpress.com/wp-content/themes/memberpress-theme/images/FooterCTAgirl.webp)
+
+### Get MemberPress today!
+
+Start getting paid for the content you create.
+
+[Get MemberPress Now](https://memberpress.com/plans/pricing/)
+
+      Recommended by top influencers and web hosts
+			
+
+![4.8 out of 5 on Capterra](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjEwIj48ZyBmaWx0ZXI9ImJsdXIoMTJweCkiPjxyZWN0IHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbGw9IiM5NGE0NWMiLz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjOTRhNDVjIi8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxlbGxpcHNlIGN4PSIxMzQiIGN5PSIxNDgiIGZpbGw9IiNmZmZjZDkiIHJ4PSI4MCIgcnk9IjEyNiIvPjxjaXJjbGUgcj0iMSIgZmlsbD0iIzAzMDAwMCIgdHJhbnNmb3JtPSJtYXRyaXgoMjQuNTY5OTkgLS41ODYxOSA0LjQ3NDggMTg3LjU2MDMgMTYgMTQ0LjIpIi8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgtMy43MzgxNyAtMjE3LjUwODcgMjAuMTExMDUgLS4zNDU2MyAyNDEuNSAuMSkiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0icm90YXRlKC0xNzcuNCA3Mi4zIDgxLjYpc2NhbGUoODEuMTk1OTQgMzMuMjkxNzMpIi8+PC9nPjwvZz48L3N2Zz4=)![4.8 out of 5 on Capterra](https://memberpress.com/wp-content/themes/memberpress-theme/images/capterra-footer.png)
+
+![4.7 out of 5 on G2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjEwIj48ZyBmaWx0ZXI9ImJsdXIoMTJweCkiPjxyZWN0IHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbGw9IiM4Yzk0NTQiLz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjOGM5NDU0Ii8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxjaXJjbGUgcj0iMSIgZmlsbD0iIzI5MDAwMCIgdHJhbnNmb3JtPSJtYXRyaXgoMS4zODYxNyA1OS4yMTI2MyAtMjU0LjkzMDE1IDUuOTY3OTQgMTUwLjggMjQuMykiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0ibWF0cml4KDc5LjIxODc1IC0xMy40NDQ0NyAxMC40NjY2MyA2MS42NzI0NiAxMTguNyAxNjUuNykiLz48Y2lyY2xlIHI9IjEiIHRyYW5zZm9ybT0icm90YXRlKC0xMS45IDI4OS4zIC0xMDU0Ljkpc2NhbGUoNDMuMTQxMjQgMjU1KSIvPjxlbGxpcHNlIGN4PSIxMjUiIGN5PSI5NCIgZmlsbD0iI2ZmODkwNiIgcng9IjEwMSIgcnk9IjQzIi8+PC9nPjwvZz48L3N2Zz4=)![4.7 out of 5 on G2](https://memberpress.com/wp-content/themes/memberpress-theme/images/g2-footer.png)
+
+![4.8 out of 5 on Trust Pilot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjEwIj48ZyBmaWx0ZXI9ImJsdXIoMTJweCkiPjxyZWN0IHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbGw9IiM3NjdkNmEiLz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjNzY3ZDZhIi8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpc2NhbGUoMS4xNzE4OCkiPjxjaXJjbGUgcj0iMSIgZmlsbD0iI2ZmZmZiOSIgdHJhbnNmb3JtPSJyb3RhdGUoLTE3NS44IDcxLjUgNjMuNSlzY2FsZSg4NC41MzUwMSAxMDcuNzM1NDEpIi8+PGNpcmNsZSByPSIxIiBmaWxsPSIjMDAxMjAwIiB0cmFuc2Zvcm09Im1hdHJpeCgzNi4zOTA1MyAxLjg2MzEgLTEyLjk4ODY3IDI1My42OTc1NCAxMiAzNi42KSIvPjxlbGxpcHNlIGN4PSIxMzgiIGN5PSIxNzAiIGZpbGw9IiNmZmYiIHJ4PSI4NCIgcnk9IjQyIi8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtMy43IDE0MDQuOCAtMzk1My42KXNjYWxlKDI4LjE3Mjk1IDIzOC44NTEzNCkiLz48L2c+PC9nPjwvc3ZnPg==)![4.8 out of 5 on Trust Pilot](https://memberpress.com/wp-content/themes/memberpress-theme/images/trustpilot-footer.png)
+
+[](https://www.wpbeginner.com/plugins/5-best-wordpress-membership-plugins-compared/)
+
+![Easiest Admin - Summer 2024](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOTkiIGhlaWdodD0iMzg5Ij48ZyBmaWx0ZXI9ImJsdXIoMTJweCkiPjxyZWN0IHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbGw9IiM4ODgiLz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODg4Ii8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjggLjgpc2NhbGUoMS41MTk1MykiPjxlbGxpcHNlIGN4PSI5NCIgY3k9IjcyIiBmaWxsPSIjZmZmZmVjIiByeD0iMTI3IiByeT0iMTYzIi8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtMTIyLjUgMTU4IDc1LjQpc2NhbGUoMzUuNTQ1NDYgOTcuNjIwNDgpIi8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgzMiAtNDI4LjcgMTg0LjYpc2NhbGUoNTIuNTYxNDEgMzAuODAyOTgpIi8+PGNpcmNsZSByPSIxIiBmaWxsPSIjZmRlNzRlIiB0cmFuc2Zvcm09Im1hdHJpeCgxODQuMjkzMSAuNDg3NyAtLjA3OTE0IDI5LjkwNDggMTE1LjEgMTUwLjcpIi8+PC9nPjwvZz48L3N2Zz4=)![Easiest Admin - Summer 2024](https://memberpress.com/wp-content/themes/memberpress-theme/images/verification-badges/easiest-admin.png)
+
+![Easiest Setup - Summer 2024](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOTkiIGhlaWdodD0iMzg5Ij48ZyBmaWx0ZXI9ImJsdXIoMTJweCkiPjxyZWN0IHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbGw9IiM4MzgzODMiLz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODM4MzgzIi8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjggLjgpc2NhbGUoMS41MTk1MykiPjxlbGxpcHNlIGN4PSI5NCIgY3k9IjM0IiBmaWxsPSIjZmZmIiByeD0iMTQyIiByeT0iMjAzIi8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtMjggNTU2LjIgLTI3OC45KXNjYWxlKDkwLjAxMzk0IDI0Ljg4NTU3KSIvPjxjaXJjbGUgcj0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTYuOTcyNTcgMjkuMzE4ODggLTQ3LjY0MjQ2IC0xMS4zMzAyNSAxOSAyNDguOCkiLz48ZWxsaXBzZSBjeD0iMTIwIiBjeT0iMTQzIiBmaWxsPSIjNWRjNWZmIiByeD0iMTk2IiByeT0iMjQiLz48L2c+PC9nPjwvc3ZnPg==)![Easiest Setup - Summer 2024](https://memberpress.com/wp-content/themes/memberpress-theme/images/verification-badges/easiest-setup.png)
+
+![High Performer - Summer 2024](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOTkiIGhlaWdodD0iMzg5Ij48ZyBmaWx0ZXI9ImJsdXIoMTJweCkiPjxyZWN0IHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbGw9IiM3NDc0NzQiLz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjNzQ3NDc0Ii8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjggLjgpc2NhbGUoMS41MTk1MykiPjxlbGxpcHNlIGN4PSI5OCIgY3k9IjgyIiBmaWxsPSIjZmZmIiByeD0iMTIyIiByeT0iMTU3Ii8+PHBhdGggZD0ibTIzMC43IDIzOC4yLTc1LjUgNDcuMi0yNi00MS42IDc1LjYtNDcuMnoiLz48Y2lyY2xlIHI9IjEiIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0ibWF0cml4KDYxLjI1ODEgOC4xNzM1OCAtOC42NDg3NiA2NC44MTk0NyAxNy4xIDU0LjEpIi8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09Im1hdHJpeCg5OC40ODI2OCA2NS45NzcwMyAtMjAuMTIyNzIgMzAuMDM2ODEgMTUuNSAyNTUpIi8+PC9nPjwvZz48L3N2Zz4=)![High Performer - Summer 2024](https://memberpress.com/wp-content/themes/memberpress-theme/images/verification-badges/high-performer.png)
+
+![Momentum Leader - Summer 2024](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOTkiIGhlaWdodD0iMzg5Ij48ZyBmaWx0ZXI9ImJsdXIoMTJweCkiPjxyZWN0IHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbGw9IiM3NDc0NzQiLz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjNzQ3NDc0Ii8+PGcgZmlsbC1vcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjggLjgpc2NhbGUoMS41MTk1MykiPjxlbGxpcHNlIGN4PSI5MyIgY3k9IjgxIiBmaWxsPSIjZmZmIiByeD0iMTMyIiByeT0iMTU2Ii8+PGNpcmNsZSByPSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgtNjIuMDU3MjMgNDAuMjcxNjkgLTEzLjgzMDI1IC0yMS4zMTE5MyAxNzkuOCAyMzkuOCkiLz48Y2lyY2xlIHI9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC0xNC40NTcwNCAtMzEuMTQ1MDIgNDYuMDc4MTkgLTIxLjM4ODc4IDEzLjQgMjU1KSIvPjxjaXJjbGUgY3g9Ijc0IiByPSIyMTQiIGZpbGw9IiNmZmQyYzkiLz48L2c+PC9nPjwvc3ZnPg==)![Momentum Leader - Summer 2024](https://memberpress.com/wp-content/themes/memberpress-theme/images/verification-badges/momentum-leader.png)
+
+## Footer
+
+ 
+
+#### Company
+
+#### Features
+
+#### Integrations
+
+#### Case Studies
+
+#### Helpful Links
+
+ 
+
+![MemberPress logo](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![MemberPress logo](https://memberpress.com/wp-content/themes/memberpress-theme/images/memberpress-logo-white.svg)
+
+[](https://twitter.com/memberpress)
+[](https://facebook.com/memberpress)
+[](https://www.instagram.com/memberpress)
+[](https://www.youtube.com/c/MemberPressPlugin)
+
+						Copyright © 2025 Caseproof, LLC. All rights reserved.
+					
+
+[Privacy Policy](https://memberpress.com/privacy/)
+/
+[Refunds](https://memberpress.com/terms/#refunds)
+/
+[Terms & Conditions](https://memberpress.com/terms/)
+/
+[FTC Disclosure](https://memberpress.com/privacy/)
+/
+[MemberPress Coupon Code](https://memberpress.com/memberpress-coupon-code/)
+
+ 
+
+Username or E-mail
+
+Password
+
+ Remember Me
+
+ 
+
+ 
+
+[Forgot Password](https://memberpress.com/sign-in/?action=forgot_password)
+
+			×			
+
+ 
+
+ 
+
+  ![](https://px.ads.linkedin.com/collect/?pid=3219420&fmt=gif)
+
